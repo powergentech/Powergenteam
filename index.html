@@ -7,56 +7,62 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
-        <div class="container">
-            <h1>PowerGenTeam</h1>
-            <p class="tagline">Canada's 1st Choice for Reliable Power Generation</p>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <a href="index.html" class="logo">
+            <img src="assets/logo.jpg" alt="PowerGenTeam Logo"> <!-- Or logo2.jpg if preferred -->
+            PowerGenTeam
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="contact.html" class="btn-quote">Get A Quote</a>
     </header>
 
     <section class="hero">
-        <div class="container">
-            <h2>When You Need PowerGen, We're Your First Choice</h2>
-            <p>Expert sales, service, maintenance, and rentals for industrial and standby generators across Canada.</p>
-            <a href="contact.html" class="btn">Get a Quote</a>
-        </div>
-    </section>
-
-    <!-- Industrial Generator Image Gallery -->
-    <section class="gallery">
-        <div class="container">
-            <h2>Industrial Generator Solutions in Action</h2>
-            <div class="gallery-grid">
-                <img src="assets/IMG_20190125_113219084.jpg" alt="Large industrial diesel generator outdoor installation"
-                <img src="assets/How-to-Size-a-Commercial-Generator-1.jpg" alt="Sizing a commercial generator">
-                <img src="assets/how-much-does-an-industrial-generator-cost-1024x683.jpg" alt="Industrial generator cost and setup">
-                <img src="assets/img_2-c4485e7a4aef6e184f36a95d4f8c5b0def1cf384dfbc73785b18f1aa2aa085c5.jpg" alt="Commercial/industrial generator installation">
-                <img src="assets/industrial_generator_maintenance_valley_power_systems.jpg" alt="Technician performing detailed maintenance">
-                <img src="assets/4.png" alt="Technician servicing large diesel generator">
-                <img src="assets/serious-maintenance-technician-leaning-over-generating-unit-picture-id1347475458_2.jpg" alt="Generator technician at work">
-                <img src="assets/CAT-permanent-generators-e1752172770996.webp" alt="Caterpillar permanent industrial generators">
-                <img src="assets/industrial-diesel-power-generator-electrical-equipment-close-up-of-control-panel-with-display-and-buttons-2B91D9N.jpg" alt="Industrial generator control panel close-up">
+        <div class="hero-overlay">
+            <h1>Let us be your backup plan</h1>
+            <p>We provide emergency standby power system services to keep our customers’ critical infrastructure online, safe, and compliant, no matter what.</p>
+            <div class="buttons">
+                <a href="contact.html" class="btn-primary">Get A Quote</a>
+                <a href="tel:18887693783" class="btn-secondary">Call 1-888-POWER-TEAM For Assistance</a>
             </div>
         </div>
     </section>
 
-    <!-- CSA C282 Compliance Section -->
-    <section class="compliance">
+    <!-- Original content sections preserved -->
+
+    <section class="content-section gallery-section">
         <div class="container">
-            <h2>Compliant with CSA C282 Standards</h2>
-            <p>We perform comprehensive maintenance and inspections in strict accordance with CSA C282 codes � the Canadian standard for emergency electrical power supply systems for buildings. This ensures your critical power systems meet safety, reliability, and regulatory requirements.</p>
+            <h2>Industrial Generator Solutions in Action</h2>
+            <div class="gallery-grid">
+                <img src="assets/1.jpeg" alt="Industrial generator installation">
+                <img src="assets/2.jpg" alt="Generator setup">
+                <img src="assets/3.jpg" alt="Large standby generator">
+                <!-- Special override for 4.jpg to show full image without cropping -->
+                <img src="assets/4.jpg" alt="Generac industrial enclosed generator">
+                <img src="assets/5.jpg" alt="Generator maintenance">
+                <img src="assets/6.jpg" alt="Technician at work">
+                <img src="assets/7.jpg" alt="Caterpillar generator">
+                <img src="assets/8.jpg" alt="Control panel close-up">
+                <img src="assets/9.jpg" alt="Industrial power solution">
+            </div>
         </div>
     </section>
 
-    <section class="stats">
+    <section class="content-section compliance-section">
+        <div class="container">
+            <h2>Compliant with CSA C282 Standards</h2>
+            <p>We perform comprehensive maintenance and inspections in strict accordance with CSA C282 codes — the Canadian standard for emergency electrical power supply systems for buildings. This ensures your critical power systems meet safety, reliability, and regulatory requirements.</p>
+        </div>
+    </section>
+
+    <section class="content-section stats-section">
         <div class="container">
             <h2>Proven Reliability</h2>
             <div class="stat-grid">
@@ -80,22 +86,22 @@
         </div>
     </section>
 
-    <section class="highlights">
+    <section class="content-section highlights-section">
         <div class="container">
             <h2>Why Choose PowerGenTeam</h2>
             <div class="highlight-grid">
                 <div class="highlight">
-                    <img src="https://generatorsource.com/wp-content/uploads/2025/01/379924221_665866148984935_8587346158509263514_n-Custom-2.webp" alt="Skilled technician">
+                     <img src="assets/10.jpg">
                     <h3>Expert Team</h3>
                     <p>Certified technicians with years of field experience.</p>
                 </div>
                 <div class="highlight">
-                    <img src="https://www.globalpwr.com/wp-content/uploads/2023/07/gps-san-miguelito-generator-600x450.jpg" alt="Generator installation">
+                      <img src="assets/11.jpg">
                     <h3>Comprehensive Solutions</h3>
                     <p>From installation to maintenance and repairs.</p>
                 </div>
                 <div class="highlight">
-                    <img src="https://waltpower.com/wp-content/uploads/2025/02/High-Voltage-Diesel-Generators.jpg" alt="Service across Canada">
+                      <img src="assets/12.jpg">
                     <h3>Coast-to-Coast Service</h3>
                     <p>Reliable support across all provinces.</p>
                 </div>
@@ -103,7 +109,7 @@
         </div>
     </section>
 
-    <section class="industries">
+    <section class="content-section industries-section">
         <div class="container">
             <h2>Industries We Serve</h2>
             <div class="industry-grid">
@@ -131,5 +137,6 @@
             </ul>
         </div>
     </footer>
+
 </body>
 </html>

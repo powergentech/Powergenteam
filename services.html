@@ -7,33 +7,46 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
-        <div class="container">
-            <h1>PowerGenTeam</h1>
-            <p class="tagline">Canada's 1st Choice for Reliable Power Generation</p>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <a href="index.html" class="logo">
+            <img src="assets/logo.jpg" alt="PowerGenTeam Logo"> <!-- Or logo2.jpg -->
+            PowerGenTeam
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="contact.html" class="btn-quote">Get A Quote</a>
     </header>
 
-    <section class="page-content">
+    <section class="content-section page-section">
         <div class="container">
             <h2>Our Generator Services</h2>
-            <p>We provide full-service solutions for critical power systems, including:</p>
-            <ul>
-                <li><strong>Preventive Maintenance Programs:</strong> Thorough inspections and care to ensure reliability (CSA C282 compliant).</li>
-                <li><strong>24/7 Emergency Repairs:</strong> Rapid response for breakdowns.</li>
-                <li><strong>Installations & Upgrades:</strong> Turnkey standby generator setups.</li>
-                <li><strong>Sales & Rentals:</strong> New generators and temporary power solutions.</li>
-                <li><strong>Parts & Support:</strong> Genuine parts and expert diagnostics.</li>
-            </ul>
-            <img src="https://csdieselgenerators.com/wp-content/uploads/2023/02/4.png" alt="Technician performing generator maintenance" class="page-img">
+            <p>We provide full-service solutions for critical power systems across Canada.</p>
+
+            <div class="services-list">
+                <p><strong>Preventive Maintenance Programs</strong><br>
+                Thorough inspections and care to ensure reliability (CSA C282 compliant).</p>
+
+                <p><strong>24/7 Emergency Repairs</strong><br>
+                Rapid response for breakdowns, anytime.</p>
+
+                <p><strong>Installations & Upgrades</strong><br>
+                Upgrade controllers to meet new codes and Turnkey standby generator setups.</p>
+
+                <p><strong>Sales & Rentals</strong><br>
+                New generators and temporary power solutions.</p>
+
+                <p><strong>Parts & Support</strong><br>
+                OEM parts and expert diagnostics.</p>
+            </div>
+
+            <img src="assets/7.jpg" alt="Technician performing generator maintenance" class="page-img">
         </div>
     </section>
 
@@ -49,5 +62,6 @@
             </ul>
         </div>
     </footer>
+
 </body>
 </html>

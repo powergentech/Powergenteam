@@ -7,40 +7,50 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
-        <div class="container">
-            <h1>PowerGenTeam</h1>
-            <p class="tagline">Canada's 1st Choice for Reliable Power Generation</p>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <a href="index.html" class="logo">
+            <img src="assets/logo.jpg" alt="PowerGenTeam Logo">
+            PowerGenTeam
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="contact.html" class="btn-quote">Get A Quote</a>
     </header>
 
-    <section class="page-content">
+    <section class="content-section page-section contact-page">
         <div class="container">
-            <h2>Contact Us</h2>
-            <p><strong>24/7 Emergency Service:</strong> Call your local branch immediately.</p>
-            <p>Email: info@powergenteam.ca | General Inquiries: 1-888-POWER-TEAM</p>
-            <p>We have locations across Canada – contact us for your nearest office.</p>
+            <h2>Get in Touch with Us Today</h2>
+            <div class="contact-info">
+                <p><strong>24/7 Emergency Service:</strong> <span class="emergency">Call us immediately for urgent support</span></p>
+                <p><strong>Email:</strong> info@powergenteam.ca</p>
+                <p><strong>General Inquiries:</strong> 1-888-POWER-TEAM</p>
+                <p>We serve clients across all provinces in Canada â€” we'll connect you to your nearest team.</p>
+            </div>
+
             <form action="https://formspree.io/f/xnjqawqw" method="POST">
                 <input type="hidden" name="_subject" value="New Contact Form Submission - PowerGenTeam.ca">
-                <input type="text" name="_gotcha" style="display:none"> <!-- Anti-spam honeypot -->
-                <!-- Replace with your real Formspree endpoint -->
-                <label for="name">Name:</label>
+                <input type="text" name="_gotcha" style="display:none">
+                
+                <label for="name">Your Name</label>
                 <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
+
+                <label for="email">Email Address</label>
                 <input type="email" id="email" name="email" required>
-                <label for="phone">Phone:</label>
+
+                <label for="phone">Phone Number</label>
                 <input type="tel" id="phone" name="phone">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit" class="btn">Send Message</button>
+
+                <label for="message">How Can We Help You?</label>
+                <textarea id="message" name="message" required placeholder="Tell us about your power needs..."></textarea>
+
+                <button type="submit" class="btn-primary">Send Message</button>
             </form>
         </div>
     </section>
@@ -57,5 +67,6 @@
             </ul>
         </div>
     </footer>
+
 </body>
 </html>
