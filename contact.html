@@ -24,34 +24,38 @@
         <a href="contact.html" class="btn-quote">Get A Quote</a>
     </header>
 
-    <section class="content-section page-section contact-page">
-        <div class="container">
-            <h2>Get in Touch with Us Today</h2>
-            <div class="contact-info">
-                <p><strong>24/7 Emergency Service:</strong> <span class="emergency">Call us immediately for urgent support</span></p>
-                <p><strong>Email:</strong> info@powergenteam.ca</p>
-                <p><strong>General Inquiries:</strong> 1-888-POWER-TEAM</p>
-                <p>We serve clients across all provinces in Canada — we'll connect you to your nearest team.</p>
+    <section class="content-section contact-page-bg">
+        <div class="contact-overlay">
+            <div class="container">
+                <h2>Get in Touch with Us Today</h2>
+                <div class="contact-info">
+                    <p><strong>24/7 Emergency Service:</strong> <span class="emergency">Call us immediately for urgent support</span></p>
+                    <p><strong>Email:</strong> powergentechcan@gmail.com</p>
+                    <p><strong>General Inquiries:</strong> 1-416-702-3879</p>
+                    <p>We serve clients across all provinces in Canada — we'll connect you to your nearest team.</p>
+                </div>
+
+                <form class="vertical-form" action="https://formspree.io/f/xnjqawqw" method="POST">
+                    <input type="hidden" name="_subject" value="New Contact Form Submission - PowerGenTeam.ca">
+                    <input type="text" name="_gotcha" style="display:none">
+                    
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" required placeholder="Tell us about your power needs..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </div>
+                </form>
             </div>
-
-            <form action="https://formspree.io/f/xnjqawqw" method="POST">
-                <input type="hidden" name="_subject" value="New Contact Form Submission - PowerGenTeam.ca">
-                <input type="text" name="_gotcha" style="display:none">
-                
-                <label for="name">Your Name</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" name="phone">
-
-                <label for="message">How Can We Help You?</label>
-                <textarea id="message" name="message" required placeholder="Tell us about your power needs..."></textarea>
-
-                <button type="submit" class="btn-primary">Send Message</button>
-            </form>
         </div>
     </section>
 
