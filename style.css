@@ -389,6 +389,12 @@ nav a.active {
     background: #0088cc;
 }
 
+.btn-call {
+    cursor: default;           /* Shows normal arrow instead of hand pointer */
+    pointer-events: none;      /* Completely disables any clicking or hovering */
+    user-select: text;         /* Allows users to select and copy the phone number */
+}
+
 /* Footer */
 footer {
     padding: 40px 0;
@@ -534,3 +540,4 @@ footer {
         height: 300px; /* Adjust height for smaller screens */
     }
 }
+
