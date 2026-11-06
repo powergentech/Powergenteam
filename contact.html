@@ -10,7 +10,7 @@
 
     <header>
         <a href="index.html" class="logo">
-            <img src="assets/logo.jpg" alt="PowerGen Logo">
+            The Power Gen
         </a>
         <nav>
             <ul>
@@ -34,8 +34,18 @@
                     <p>We serve clients across all Ontario — We will connect you to your nearest team.</p>
                 </div>
 
-                <form class="vertical-form" action="mailto:Service@thepowergen.ca" method="POST" enctype="text/plain">
+                <!-- Secure HTTPS Form Submission -->
+                <form class="vertical-form" action="https://formsubmit.co/Service@thepowergen.ca" method="POST">
                     
+                    <!-- Subject line of the email you receive -->
+                    <input type="hidden" name="_subject" value="New Website Quote Request - The Power Gen">
+                    
+                    <!-- Prevent Spam Bots -->
+                    <input type="text" name="_honey" style="display:none">
+                    
+                    <!-- Optional: Redirect back to a custom thank you page -->
+                    <input type="hidden" name="_next" value="https://thepowergen.ca/contact.html">
+
                     <div class="form-group">
                         <input type="text" name="Name" placeholder="Your Name" required>
                     </div>
