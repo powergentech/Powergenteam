@@ -34,29 +34,21 @@
                     <p>We serve clients across all Ontario — We will connect you to your nearest team.</p>
                 </div>
 
-                <!-- Secure HTTPS Form Submission -->
-                <form class="vertical-form" action="https://formsubmit.co/Service@thepowergen.ca" method="POST">
-                    
-                    <!-- Subject line of the email you receive -->
+                <form class="vertical-form" action="https://formspree.io/f/xnjqawqw" method="POST">
                     <input type="hidden" name="_subject" value="New Website Quote Request - The Power Gen">
-                    
-                    <!-- Prevent Spam Bots -->
-                    <input type="text" name="_honey" style="display:none">
-                    
-                    <!-- Optional: Redirect back to a custom thank you page -->
-                    <input type="hidden" name="_next" value="https://thepowergen.ca/contact.html">
+                    <input type="text" name="_gotcha" style="display:none"> <!-- Anti-spam honeypot -->
 
                     <div class="form-group">
-                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="name" placeholder="Your Name" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" name="Email" placeholder="Email Address" required>
+                        <input type="email" name="email" placeholder="Email Address" required>
                     </div>
                     <div class="form-group">
-                        <input type="tel" name="Phone" placeholder="Phone Number">
+                        <input type="tel" name="phone" placeholder="Phone Number">
                     </div>
                     <div class="form-group">
-                        <textarea name="Message" required placeholder="Tell us about your power needs..."></textarea>
+                        <textarea name="message" required placeholder="Tell us about your power needs..."></textarea>
                     </div>
                     <div class="form-group">
                         <button type="submit" class="btn-primary">Send Message</button>
